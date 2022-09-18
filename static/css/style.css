@@ -944,6 +944,8 @@ h1, h2, h3, h4, h5,
     background: #fff; }
 
 .post-entry-1 {
+    display: flex;
+    align-items: center;
   -webkit-box-shadow: 0 4px 20px -8px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 20px -8px rgba(0, 0, 0, 0.3);
   background: #fff; }
@@ -964,6 +966,15 @@ h1, h2, h3, h4, h5,
       margin: 0 auto -45px auto; }
     .post-entry-1.person-1 .post-entry-1-contents {
       padding-top: 4rem; }
+
+      .post-entry-1 a {
+        height: 100%;
+      }
+
+      .post-entry-1 a img.img-fluid {
+        height: 100%;
+        object-fit: cover;
+      }
 
 .sidebar-box {
   margin-bottom: 30px;
